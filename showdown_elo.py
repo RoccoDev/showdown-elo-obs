@@ -87,7 +87,8 @@ def update_text():
         try:
             opener = urllib.request.build_opener()
             opener.addheaders = [('User-Agent', 'ShowdownELOOBS/1.0')]
-            r = opener.open("http://play.pokemonshowdown.com/%7e%7eshowdown/action.php?act=ladderget&user=" + username)
+            r = opener.open(
+                "http://play.pokemonshowdown.com/%7e%7eshowdown/action.php?act=ladderget&user=" + urllib.parse.quote(username))
             data = json.loads(r.read().decode('utf-8')[1:])
             obj = [o for o in data if o['formatid'] == format]
 
