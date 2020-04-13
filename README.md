@@ -1,7 +1,7 @@
 # Pokemon Showdown ELO plugin for OBS
 
 ## Installation
-* First, download the plugin from [here]().
+* First, download the plugin from [here](https://raw.githubusercontent.com/RoccoDev/showdown-elo-obs/master/showdown_elo.py).
 * If you are on Linux or macOS, skip this step.
     * If you are on **Windows**, you have to install Python 3.6 first.
     * If your OBS is 64-bit, install [this](https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe).
