@@ -8,6 +8,13 @@
     * If your OBS is 32-bit, install [this](https://www.python.org/ftp/python/3.6.8/python-3.6.8.exe).
 * Once you have downloaded the `showdown_elo.py` file, open OBS.
 * Navigate to Tools > Scripts.
+* If you're on **Windows**, do the following:
+    * Open the "Python settings" tab.
+    * Click "Browse..."
+    * Type `%appdata%` in the address bar and press Enter.
+    * You should be in the `Roaming` folder. Go up one level and open `Local`.
+    * Navigate to `Programs\Python\Python36` and click "Select folder".
+    * Now go back to the Scripts tab.
 * Click the "+" button in the bottom left corner.
 * Choose the `showdown_elo.py` file you've downloaded.
 * Configure the plugin as you'd like.
@@ -18,6 +25,7 @@
         * If your text source isn't recognized by the plugin, restart OBS.
     * Format: the Showdown format identifier, for example `gen8ou`, `gen7randombattle`, `gen5uu` etc.
     * Text format: how the text should be displayed, see the section below.
+* To apply the changes, click the refresh button next to the "+" and "-" buttons in the bottom left corner.
 
 ## Troubleshooting
 * Text source isn't recognized in the settings: restart OBS.
